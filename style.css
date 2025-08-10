@@ -1,0 +1,28 @@
+.timeline-embed {
+    border-radius: 16px;
+    overflow: hidden;               /* rounds the iframe corners */
+    box-shadow: 0 6px 20px rgba(0,0,0,.06);
+    background: #fff;
+  }
+
+
+.leading-label {
+    color: red;
+    font-style: italic;
+    font-size: 0.75rem;
+    vertical-align: super;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+  
+    padding: 8px 3px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+    /* Hand-drawn circle effect via inline SVG */
+background-image: url("data:image/svg+xml;utf8,\<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 90 36'>\
+      <ellipse cx='45' cy='18' rx='46' ry='17' fill='none' stroke='red' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' stroke-dasharray='3 2'/>\
+    </svg>");}
+
+
+  
